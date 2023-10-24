@@ -1,0 +1,20 @@
+{
+    "name": "juling/laravel-auth",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^8.1",
+        "firebase/php-jwt": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juling\\Auth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juling\\Auth\\AuthServiceProvider"
+            ]
+        }
+    }
+}
